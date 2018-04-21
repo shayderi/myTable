@@ -16,7 +16,6 @@ export function getUsers(
 				
 			resolve({
 				users: sortedList,
-				hasNextPage: false,
 				totalMount: 101
 			});
 		}, 100);
