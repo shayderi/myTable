@@ -12,3 +12,6 @@ The demo contains:
 3. sorting  
 
 we also use cell renderer in order to achieve custom columns
+
+project setup (react-webpack made by cloning rwieruch/minimal-react-webpack-babel-setup)  
+
