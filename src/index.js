@@ -1,11 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-const title = 'My Minimal React Webpack Babel Setup';
+import React from "react";
+import ReactDOM from "react-dom";
+import MyTable from "./Table/MyTable";
 
 ReactDOM.render(
-  <div>{title}</div>,
-  document.getElementById('app')
+	<MyTable/>,
+	document.getElementById("app")
 );
 
 module.hot.accept();
